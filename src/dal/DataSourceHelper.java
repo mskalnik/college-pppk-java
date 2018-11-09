@@ -13,12 +13,12 @@ import javax.sql.DataSource;
  * @author ms
  */
 public class DataSourceHelper {
-      public static DataSource createDataSource() {
+    public static DataSource createDataSource() {
         SQLServerDataSource dataSource = new SQLServerDataSource();
-        dataSource.setServerName(".\\SQLEXPRESS");
+        dataSource.setServerName("DESKTOP-9RVV76C\\SQLEXPRESS");
         dataSource.setDatabaseName("PPPK");
         dataSource.setUser("sa");
         dataSource.setPassword("SQL");
         return dataSource;
-      }
+    }
 }

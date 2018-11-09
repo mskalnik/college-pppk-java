@@ -107,7 +107,7 @@ public class Main {
                     stmt.setString(1, c.getRegistration());
                     stmt.setString(2, c.getInitialKm().toString());
                     stmt.setString(3, c.getYearOfProduction().toString());
-                    stmt.setString(4, c.getYearOfProduction().toString());
+                    stmt.setString(4, c.getCarTypeId().toString());
 
                     //Add statement to batch
                     stmt.addBatch();
